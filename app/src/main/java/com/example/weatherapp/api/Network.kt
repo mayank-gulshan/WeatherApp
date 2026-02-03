@@ -12,7 +12,7 @@ class ApiKeyInterceptor : Interceptor {
 
         val originalUrl = chain.request().url
         val newUrl = originalUrl.newBuilder()
-            .addQueryParameter("key", "3f14db61d8c54b11868162012261301")
+            .addQueryParameter("key", "enter key here")
             .build()
 
         Log.d("API_URL", newUrl.toString()) // 👈 ADD THIS
